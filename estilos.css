@@ -1,0 +1,446 @@
+/* ============================================
+   BASE GENERAL
+   ============================================ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+h2.titulo-ejemplo {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    margin: 30px 0 10px 0;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.caja-ejemplo {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* ============================================
+   EJEMPLO 9
+   ============================================ */
+#ej9 #correo {
+    color: blue;
+}
+
+#ej9 #telefono {
+    color: red;
+}
+
+/* ============================================
+   EJEMPLO 10
+   ============================================ */
+#ej10 p.info {
+    color: green;
+}
+
+#ej10 p.advertencia {
+    color: blue;
+}
+
+#ej10 p.error {
+    color: red;
+}
+
+/* ============================================
+   EJEMPLO 15
+   ============================================ */
+#ej15 header {
+    background: #333;
+    height: 100px;
+}
+
+#ej15 h1 {
+    font-family: tahoma;
+    color: white;
+    line-height: 60px;
+    margin: 10px;
+}
+
+#ej15 h4 {
+    font-family: tahoma;
+    color: yellow;
+    margin: 10px;
+}
+
+/* ============================================
+   EJEMPLO 16
+   ============================================ */
+#ej16 img {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+
+/* ============================================
+   EJEMPLO 17
+   ============================================ */
+#ej17 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f2f2f2;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#ej17 nav {
+    float: right;
+}
+
+#ej17 nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+#ej17 nav ul li {
+    display: inline-block;
+    line-height: 40px;
+}
+
+#ej17 nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#ej17 nav ul li a:hover {
+    background: #0b76a6;
+}
+
+/* ============================================
+   EJEMPLO 18
+   ============================================ */
+#ej18 {
+    background: #d3d3d3;
+    font-size: 100%;
+    margin: 0;
+    padding: 10px;
+    font-family: tahoma;
+    color: #444;
+}
+
+#ej18 section {
+    max-width: 400px;
+}
+
+/* ============================================
+   EJEMPLO 19
+   ============================================ */
+#ej19 * {
+    font-family: tahoma;
+}
+
+#ej19 section {
+    background-color: gray;
+    width: 100%;
+    max-width: 870px;
+    height: 400px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#ej19 section#izquierda,
+#ej19 section#medio,
+#ej19 section#derecha {
+    background-color: burlywood;
+    width: 260px;
+    height: 370px;
+    float: left;
+    padding: 10px;
+}
+
+/* ============================================
+   EJEMPLO 20
+   ============================================ */
+#ej20 {
+    margin: 0;
+    padding: 10px;
+    background: #1EB0D7;
+    font-family: "Tahoma";
+    font-size: 10pt;
+    color: #525252;
+}
+
+#ej20 nav li {
+    display: inline-block;
+}
+
+#ej20 nav a {
+    display: block;
+    float: left;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    background: #178EAE;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #0C749C;
+    text-transform: uppercase;
+    font-size: .90em;
+    color: #FFFFFF;
+}
+
+/* ============================================
+   EJEMPLO 21
+   ============================================ */
+#ej21 {
+    background: #d3d3d3;
+    font-size: 100%;
+    margin: 0;
+    padding: 10px;
+    font-family: tahoma;
+    color: #444;
+}
+
+#ej21 nav ul {
+    background: #e8e8e8;
+    padding: 0;
+    width: 25%;
+    list-style: none;
+}
+
+#ej21 nav li a {
+    display: block;
+    padding: 1.25em;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+#ej21 nav a:hover {
+    color: #fff;
+}
+
+/* ============================================
+   EJEMPLO 22
+   ============================================ */
+#ej22 {
+    font-family: "Tahoma";
+    overflow: hidden;
+}
+
+#ej22 section {
+    width: 100%;
+    overflow: hidden;
+}
+
+#ej22 aside#left {
+    background-color: #e8e8e8;
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin: 3px;
+    padding: 10px;
+}
+
+#ej22 aside#center {
+    background-color: #e8e8e8;
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 3px;
+    padding: 10px;
+}
+
+#ej22 aside#right {
+    background-color: #e8e8e8;
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin: 3px;
+    padding: 10px;
+}
+
+/* ============================================
+   EJEMPLO 23
+   ============================================ */
+#ej23 {
+    font-size: 13px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #FFF;
+    overflow: hidden;
+}
+
+#ej23 footer {
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#ej23 p#izquierda {
+    float: left;
+}
+
+#ej23 p#derecha {
+    float: right;
+}
+
+#ej23 a {
+    color: yellow;
+}
+
+/* ============================================
+   EJEMPLO 24
+   ============================================ */
+#ej24 {
+    font-family: "Tahoma";
+    overflow: hidden;
+}
+
+#ej24 p {
+    margin: 8px;
+    text-align: justify;
+}
+
+#ej24 article {
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    width: 45%;
+    min-height: 450px;
+    background: #CFC;
+    text-align: center;
+}
+
+#ej24 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============================================
+   EJEMPLO 25
+   ============================================ */
+#ej25 {
+    font-size: 13px;
+    font-family: Tahoma;
+    color: #000;
+}
+
+#ej25 section {
+    width: 400px;
+    max-width: 100%;
+}
+
+/* ============================================
+   EJEMPLO 26
+   ============================================ */
+#ej26 {
+    font-family: Tahoma;
+    color: white;
+    text-align: center;
+}
+
+#ej26 section {
+    width: 750px;
+    max-width: 100%;
+    background: black;
+    padding: 10px;
+}
+
+#ej26 span#titulo {
+    font-size: 15px;
+    margin: 5px;
+}
+
+#ej26 span#subtitulo {
+    font-size: 12px;
+    margin: 5px;
+}
+
+#ej26 p {
+    font-size: 12px;
+}
+
+/* ============================================
+   EJEMPLO 27
+   ============================================ */
+#ej27 .barra-panel {
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    height: 140px;
+    padding: 5px;
+}
+
+#ej27 .borde-Panel {
+    border: 1px solid RGB(0, 0, 0);
+    background: RGB(215, 201, 168);
+}
+
+#ej27 .punta-Izq {
+    border-top-left-radius: 5px;
+}
+
+#ej27 .punta-Der {
+    border-top-right-radius: 5px;
+}
+
+#ej27 .barra-Scroll {
+    width: 100%;
+}
+
+#ej27 figure {
+    border: 1px solid RGB(0, 0, 0);
+    width: 130px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    padding: 0;
+}
+
+#ej27 img {
+    width: 130px;
+    height: 100px;
+    display: block;
+}
+
+/* ============================================
+   EJEMPLO 28
+   ============================================ */
+#ej28 {
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+/* ============================================
+   EJEMPLO 30
+   ============================================ */
+#ej30 blockquote {
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+/* ============================================
+   EJEMPLO 31
+   ============================================ */
+#ej31 p {
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+/* ============================================
+   EJEMPLO 32
+   ============================================ */
+#ej32 {
+    font-family: tahoma;
+    font-size: 12px;
+}
